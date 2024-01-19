@@ -1,8 +1,8 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"id": "aca57a2e-9c93-483d-a5a8-d9c405f6cc32",
+	"authors": ["Soliel"],
+	"origin": "https://github.com/soliel/CustomTemplates.git",
+	"url": "https://github.com/soliel/CustomTemplates",
 	"imagefile": "",
 	"prefix": "",
 	"repotype": "AppTemplates"

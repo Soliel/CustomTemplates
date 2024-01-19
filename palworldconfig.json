@@ -1,0 +1,56 @@
+[
+    {
+        "DisplayName": "Game Port",
+        "Category": "Server Settings",
+        "Description": "The port the game listens on",
+        "Keywords": "game,port",
+        "FieldName": "port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Player Count",
+        "Category": "Server Settings",
+        "Description": "The allowed amount of players in the server",
+        "Keywords": "player,count",
+        "FieldName": "players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Multithreaded",
+        "Category": "Server Settings",
+        "Description": "Should the server use multithreaded optimizations",
+        "Keywords": "multithreaded",
+        "FieldName": "multithreaded",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "multithreaded",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS": "True",
+            "": "False"
+        }
+    }
+]
